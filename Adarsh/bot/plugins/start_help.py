@@ -56,7 +56,7 @@ async def start(b, m):
              await StreamBot.send_photo(
                 chat_id=m.chat.id,
                 photo="https://telegra.ph/file/0dbf95d5548d9b24b491e.jpg",
-                caption="<i>𝙹𝙾𝙸𝙽 CHANNEL 𝚃𝙾 𝚄𝚂𝙴 𝙼𝙴🔐</i>",
+                caption="<i>ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴍᴇ🔐</i>",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
