@@ -143,7 +143,7 @@ async def channel_receive_handler(bot, broadcast):
         await bot.edit_message_reply_markup(
             chat_id=broadcast.chat.id,
             message_id=broadcast.id,
-            reply_markup=InlineKeyboardMarkup(
+            reply_markup=InlineKeyboardMarkup[ 
                 
                     [InlineKeyboardButton("📺 🖥sᴛʀᴇᴀᴍ ᴏɴ ᴡᴇʙ 📺 ", url=stream_link),
                      InlineKeyboardButton('🖥 sᴛʀᴇᴀᴍ ɪɴ ᴘʟᴀʏᴇʀs 🖥',f"https://stream.url2go.in/st?api=af5e38dfaf8b900b45335173d279b44d7ae4b2e9&url={online_link}") 
