@@ -17,12 +17,12 @@ async def maintainers(b,m):
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="My Lobe/Owner ❤️ Is  [Ashish Sharma](https://t.me/ashishsharmalegend)",
+                    text="My Lobe/Owner ❤️ Is  [亗 𝗧𝗛𝗘 𝗦𝗔𝗡ᕲ𝗠𝗔𝗡](https://t.me/syrus_143_hpy)",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Love/Owner ", url=f"https://t.me/ashishsharmalegend")
+                                InlineKeyboardButton("Love/Owner ", url=f"https://t.me/syrus_143_hpy")
                             ]
                         ]
                     ),
@@ -37,12 +37,12 @@ async def follow_user(b,m):
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="<B>Here's [My Love Channel ❤️](https://t.me/eliteflix_official)</B>",
+                    text="<B>Here's [My Love Channel ❤️](https://t.me/filmy_men)</B>",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("Backup Channel ❤️", url=f"https://t.me/eliteflix_official")
+                                InlineKeyboardButton("Backup Channel ❤️", url=f"https://t.me/tilmy_men")
                             ]
                         ]
                     ),
